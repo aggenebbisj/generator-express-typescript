@@ -1,19 +1,24 @@
 {
   "name": "generator-express-typescript",
   "version": "1.0.0",
-  "description": "Generator for an expressjs app with typescript",
+  "description": "Yeaoman generator for an ExpressJs app with TypeScript",
+  "license": "ISC",
+  "main": "app/index.js",
+  "repository": "aggenebbisj/generator-express-typescript",
+  "author": {
+    "name": "Remko de Jong",
+    "email": "remko@px.nl",
+    "url": "https://github.com/aggenebbisj"
+  }
   "files": [
     "app"
   ],
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "yeoman-generator", "expressjs", "express", "typescript", "ts"
+    "yeoman-generator", "expressjs", "express", "typescript", "ts", "jasmine", "karma", "supertest"
   ],
-  "author": "Remko de Jong",
-  "license": "ISC",
   "dependencies": {
     "yeoman-generator": "^0.22.4"
   }
