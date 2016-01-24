@@ -1,0 +1,20 @@
+{
+  "name": "generator-express-typescript",
+  "version": "1.0.0",
+  "description": "Generator for an expressjs app with typescript",
+  "files": [
+    "app"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator", "expressjs", "express", "typescript", "ts"
+  ],
+  "author": "Remko de Jong",
+  "license": "ISC",
+  "dependencies": {
+    "yeoman-generator": "^0.22.4"
+  }
+}

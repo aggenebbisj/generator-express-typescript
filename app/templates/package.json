@@ -1,0 +1,36 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "description": "ExpressJs app with typescript",
+  "main": "target/app.js",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "test": "jasmine-node-karma target/ --autotest",
+    "start": "node target/start.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "expressjs",
+    "typescript",
+    "ts",
+    "tsd",
+    "tslint",
+    "karma",
+    "jasmine"
+  ],
+  "author": "Remko de Jong",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-node-karma": "^1.6.1",
+    "supertest": "^1.1.0",
+    "tsd": "^0.6.5",
+    "tslint": "^3.3.0",
+    "typescript": "^1.7.5"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
